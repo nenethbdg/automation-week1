@@ -94,3 +94,12 @@ This workflow simulates conditional branching using Zapier’s Filter step by sp
 ✔ Successfully tested with URGENT and non-urgent emails  
 ✔ Confirmed correct Slack channel routing  
 
+### Gmail to Slack Automation
+![Gmail to Slack](gmail-to-slack.png)
+
+### Validation Filter Step
+![Filter Step](filter-validation.png)
+
+### Priority Router Workflow
+![Priority Router](priority-router.png)
+
