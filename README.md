@@ -24,6 +24,9 @@ Google Forms → Google Sheets → Zapier Filter → Slack Notification
 - Google Sheets
 - Slack
 
+### Gmail to Slack Automation
+![Gmail to Slack](gmail-to-slack.png)
+
 ---
 
 ## 📧 Automation 2: Gmail to Slack Alert System
@@ -62,6 +65,9 @@ Gmail Trigger → Slack Channel Notification
 
 ---
 
+### Validation Filter Step
+![Filter Step](filter-validation.png)
+
 ## 🔀 Automation 3: Priority Email Router
 
 ### 🎯 Objective
@@ -94,12 +100,8 @@ This workflow simulates conditional branching using Zapier’s Filter step by sp
 ✔ Successfully tested with URGENT and non-urgent emails  
 ✔ Confirmed correct Slack channel routing  
 
-### Gmail to Slack Automation
-![Gmail to Slack](gmail-to-slack.png)
-
-### Validation Filter Step
-![Filter Step](filter-validation.png)
-
 ### Priority Router Workflow
 ![Priority Router](priority-router.png)
+
+
 
