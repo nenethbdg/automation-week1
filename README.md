@@ -59,3 +59,38 @@ Gmail Trigger → Slack Channel Notification
 ✔ Fully functional  
 ✔ Tested with valid and invalid scenarios  
 ✔ Successfully deployed
+
+---
+
+## 🔀 Automation 3: Priority Email Router
+
+### 🎯 Objective
+Automatically route incoming emails to different Slack channels based on urgency.
+
+### 🛠 Architecture
+Gmail Trigger → Filter (Subject Contains "URGENT") → Slack Channel Routing
+
+### ⚙️ Implementation Details
+
+#### Priority Flow
+- Trigger: New Gmail message
+- Condition: Subject contains "URGENT"
+- Action: Send message to #priority Slack channel
+
+#### General Flow
+- Trigger: New Gmail message
+- Condition: Subject does NOT contain "URGENT"
+- Action: Send message to #general Slack channel
+
+### 🧠 Logic Design
+This workflow simulates conditional branching using Zapier’s Filter step by splitting urgency-based email handling into two separate automation flows.
+
+### 📦 Tools Used
+- Zapier
+- Gmail
+- Slack
+
+### 📌 Status
+✔ Successfully tested with URGENT and non-urgent emails  
+✔ Confirmed correct Slack channel routing  
+
